@@ -3,6 +3,13 @@ int expr(int x, int y, int z, int w)
     return ((2*x*y)-(7*x+1) + (2*z))*w;
 }
 
+/*
+*   if x = 1, y = 1, z = 1, w = 1;
+*   then:
+*        expr(x, y, z, w) --> (2 - 8 + 2) * 1 = - 4 
+*
+*/
+
 //c_equivalent 
 int expp(int x, int y, int z, int w)
 {
